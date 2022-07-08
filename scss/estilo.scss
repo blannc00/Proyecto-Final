@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    .logo{
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    background-color: #4b5779;
+    font-family: 'Junge', serif;
+    }
+    .logo img{
+        width: 125px;
+    }
+    h2{
+        padding: 20px;
+        color: black;
+        font-family: 'Junge', serif;
+    }
+}
+@mixin transition {
+    transition: all 1.5s ease;
+        font-family: 'Open Sans', sans-serif;
+}
+@mixin transform {
+    height: 200;
+        transform: scale(1.1, 1.1);
+}
+body{
+    .m1{
+        @include transition()
+    }
+    .m1:hover{
+        @include transform()
+    }
+    .m2{
+        @include transition()
+    }
+    .m2:hover{
+        @include transform()
+    }
+    .m3{
+        @include transition()
+    }
+    .m3:hover{
+        @include transform()
+    }
+    .m4{
+        @include transition()
+    }
+    .m4:hover{
+        @include transform()
+    }
+    .m5{
+        @include transition()
+    }
+    .m5:hover{
+        @include transform()
+    }
+    .m6{
+        @include transition()
+    }
+    .m6:hover{
+        @include transform()
+    }
+    .m7{
+        @include transition()
+    }
+    .m7:hover{
+        @include transform()
+    }
+    .m8{
+        @include transition()
+    }
+    .m8:hover{
+        @include transform()
+    }
+    .m9{
+        @include transition()
+    }
+    .m9:hover{
+        @include transform()
+    }
+    .m10{
+        @include transition()
+    }
+    .m10:hover{
+        @include transform()
+    }
+    .m11{
+        @include transition()
+    }
+    .m11:hover{
+        @include transform()
+    }
+    .m12{
+        @include transition()
+    }
+    .m12:hover{
+        @include transform()
+    }
+    .m13{
+        @include transition()
+    }
+    .m13:hover{
+        @include transform()
+    }
+    .m14{
+        @include transition()
+    }
+    .m14:hover{
+        @include transform()
+    }
+    .m15{
+        @include transition()
+    }
+    .m15:hover{
+        @include transform()
+    }
+    .m16{
+        @include transition()
+    }
+    .m16:hover{
+        @include transform()
+    }
+    .m17{
+        @include transition()
+    }
+    .m17:hover{
+        @include transform()
+    }
+    .m18{
+        @include transition()
+    }
+    .m18:hover{
+        @include transform()
+    }
+    .m19{
+        @include transition()
+    }
+    .m19:hover{
+        @include transform()
+    }
+    .m20{
+        @include transition()
+    }
+    .m20:hover{
+        @include transform()
+    }
+    .m21{
+        @include transition()
+    }
+    .m21:hover{
+        @include transform()
+    }
+    .m22{
+        @include transition()
+    }
+    .m22:hover{
+        @include transform()
+    }
+    .m23{
+        @include transition()
+    }
+    .m23:hover{
+        @include transform()
+    }
+    .m24{
+        @include transition()
+    }
+    .m24:hover{
+        @include transform()
+    }
+    .m25{
+        @include transition()
+    }
+    .m25:hover{
+        @include transform()
+    }
+    .m26{
+        @include transition()
+    }
+    .m26:hover{
+        @include transform()
+    }
+    .m27{
+        @include transition()
+    }
+    .m27:hover{
+        @include transform()
+    }
+    .m28{
+        @include transition()
+    }
+    .m28:hover{
+        @include transform()
+    }
+    .m29{
+        @include transition()
+    }
+    .m29:hover{
+        @include transform()
+    }
+    .m30{
+        @include transition()
+    }
+    .m30:hover{
+        @include transform()
+    }
+    .m31{
+        @include transition()
+    }
+    .m31:hover{
+        @include transform()
+    }
+}
+    footer{
+            padding: 20px;
+            font-family: 'Open Sans', sans-serif;
+            background-color: #4b5779;
+            color: white;
+        .icon-instagram{
+            text-decoration: none;
+            font-size: 30px;
+            color: white;
+        }
+        .icon-facebook{
+            text-decoration: none;
+            font-size: 30px;
+            color: white;
+        }
+        .icon-instagram:hover{
+            color: black;
+        }
+        .icon-facebook:hover{
+            color: black;
+        }
+        .red-social{
+            margin: 0px 20px;
+        }
+        .copy{
+            display: flex;
+            position: relative;
+            justify-content: center;
+            top: 5px;
+        }
+        }

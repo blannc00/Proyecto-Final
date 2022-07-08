@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    .titulo{
+        padding: 20px;
+    color: white;
+    background-color: #4b5779;
+    font-family: 'Junge', serif;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    background-color: #4b5779;
+    font-family: 'Junge', serif;
+    }
+    .logo img{
+        width: 125px;
+    }
+}
+main{
+    .formulario{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        font-family: 'Open Sans', sans-serif;
+    }
+}
+footer{
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #4b5779;
+    color: white;
+.icon-instagram{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+.icon-facebook{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+.icon-instagram:hover{
+    color: black;
+}
+.icon-facebook:hover{
+    color: black;
+}
+.red-social{
+    margin: 0px 20px;
+}
+.copy{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: 5px;
+}
+}

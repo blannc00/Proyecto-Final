@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header .logo {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background-color: #4b5779;
+  font-family: "Junge", serif;
+}
+header .logo img {
+  width: 125px;
+}
+
+main .grid-container {
+  display: grid;
+  grid-template-columns: auto;
+}
+main .grid-container div {
+  padding: 30px;
+  background-color: #18191B;
+  color: white;
+  border-radius: 20px;
+  font-family: "Open Sans", sans-serif;
+  border: 2px solid white;
+  grid-row-gap: 500px;
+  height: 200px;
+}
+main ol {
+  padding: 0;
+}
+main .vistas {
+  display: flex;
+  justify-content: flex-end;
+  align-content: end;
+}
+main .imagen {
+  display: inline-block;
+  position: relative;
+  bottom: 15px;
+}
+
+footer {
+  padding: 20px;
+  font-family: "Open Sans", sans-serif;
+  background-color: #4b5779;
+  color: white;
+}
+footer .icon-instagram {
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+}
+footer .icon-facebook {
+  text-decoration: none;
+  font-size: 30px;
+  color: white;
+}
+footer .icon-instagram:hover {
+  color: black;
+}
+footer .icon-facebook:hover {
+  color: black;
+}
+footer .red-social {
+  margin: 0px 20px;
+}
+footer .copy {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  top: 5px;
+}/*# sourceMappingURL=estilo2.css.map */
